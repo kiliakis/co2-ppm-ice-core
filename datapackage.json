@@ -1,0 +1,41 @@
+{
+  "name": "co2-ppm-ice-core",
+  "title": "CO2 PPM from vostok ice core",
+  "sources": [
+    {
+      "name": "CDIAC",
+      "web": "http://cdiac.esd.ornl.gov/ftp/trends/co2/vostok.icecore.co2"
+    }
+  ],
+  "license": "MIT",
+  "resources": [
+    {
+      "name": "co2-ppm-vostok",
+      "path": "data/co2-ppm-vostok.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Age of ice (yr BP)",
+            "description": "Age of ice in years Before Present",
+            "type": "number"
+          },
+          {
+            "name": "CO2 concentration (ppmv)",
+            "description": "Carbon dioxide concentration in parts per million by volume",
+            "type": "number"
+          },
+          {
+            "name": "Mean age of air (yr BP)",
+            "description": "Mean age of air in years Before Present",
+            "type": "number"
+          },
+          {
+            "name": "Depth (m)",
+            "description": "Depth of ice core in meters",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]  
+}
