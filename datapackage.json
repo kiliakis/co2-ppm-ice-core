@@ -15,22 +15,22 @@
       "schema": {
         "fields": [
           {
-            "name": "Age of ice (yr BP)",
+            "name": "Age of Ice",
             "description": "Age of ice in years Before Present",
             "type": "number"
           },
           {
-            "name": "CO2 concentration (ppmv)",
+            "name": "CO2 concentration",
             "description": "Carbon dioxide concentration in parts per million by volume",
             "type": "number"
           },
           {
-            "name": "Mean age of air (yr BP)",
+            "name": "Age of Air",
             "description": "Mean age of air in years Before Present",
             "type": "number"
           },
           {
-            "name": "Depth (m)",
+            "name": "Depth",
             "description": "Depth of ice core in meters",
             "type": "number"
           }

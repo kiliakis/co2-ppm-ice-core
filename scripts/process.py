@@ -21,7 +21,7 @@ def execute():
 
     #header = records[0]
     #header[0], header[1] = header[1], header[0]
-    header = ['Age of ice', 'CO2 conncentration', 'Mean age of air', 'Depth']
+    header = ['Age of Ice', 'CO2 Concentration', 'Age of Air', 'Depth']
     #records = records[21:]
     #print records[0]
     #return

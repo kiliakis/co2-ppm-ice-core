@@ -22,6 +22,6 @@ Python 2 is required in order to process the data.
 
 ## Processing
 In order to create the formatted .csv file in the data directory you have to run:
-* make
+* make  
 in the co2-ppm-ice-core directory 
 
