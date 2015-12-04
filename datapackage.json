@@ -37,5 +37,16 @@
         ]
       }
     }
+  ],
+  "views": [
+    {
+      "id": "Graph",
+      "type": "Graph",
+      "state": {
+        "graphType": "lines",
+        "group": "Age of Ice",
+        "series": [ "CO2 concentration" ]
+      }
+    }
   ]  
 }
